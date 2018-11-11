@@ -3,6 +3,8 @@ Extensions for converting all VRTK event to UniRx stream
 
 Extension scripts are [here](https://github.com/0V/RxVRTK/tree/master/Assets/RxVRTK/Scripts/Extensions) .  
 
+Release Notes, see [RxVRTK/releases](https://github.com/0V/RxVRTK/releases)
+
 ## Dependencies
 * VRTK v3.2.1  
 [GitHub](https://github.com/thestonefox/VRTK)  ,  [unitypackage](https://github.com/thestonefox/VRTK/releases/tag/3.2.1)
