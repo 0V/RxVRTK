@@ -13,7 +13,7 @@ Release Notes, see [RxVRTK/releases](https://github.com/0V/RxVRTK/releases)
 
 ## Usage
 
-```
+``` csharp
 VRTK_ControllerEvents controllerEvents = GetComponent<VRTK_ControllerEvents>();
 
 controllerEvents.TriggerPressedAsObservable()
