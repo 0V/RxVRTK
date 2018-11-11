@@ -7,7 +7,7 @@ Release Notes, see [RxVRTK/releases](https://github.com/0V/RxVRTK/releases)
 
 ## Dependencies
 * VRTK v3.2.1  
-[GitHub](https://github.com/thestonefox/VRTK)  ,  [unitypackage](https://github.com/thestonefox/VRTK/releases/tag/3.2.1)
+[GitHub](https://github.com/thestonefox/VRTK)  ,  [Asset Store](https://assetstore.unity.com/packages/tools/vrtk-virtual-reality-toolkit-vr-toolkit-64131)
 * UniRx  
 [GitHub](https://github.com/neuecc/UniRx)  ,  [unitypackage](https://github.com/neuecc/UniRx/releases)
 
