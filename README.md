@@ -29,6 +29,9 @@ You can observe ```{EVENT NAME}``` by using ```{EVENT NAME}AsObservable()``` met
 ### Example: Event Extensions
 
 ``` csharp
+// Add using directive
+// using RxVRTK;
+
 VRTK_ControllerEvents controllerEvents = GetComponent<VRTK_ControllerEvents>();
 
 controllerEvents.TriggerPressedAsObservable()
