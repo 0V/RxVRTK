@@ -85,9 +85,26 @@ public class SomeObject : RxVRTK_InteractableObject
 
 ```
 
-
 RxVRTK components have a prefix "RxVRTK_" but no suffix.
 
+
+### 3. VRTK_UnityEvents\<T\>
+VRTK_UnityEvents\<T\> uses UnityEvent\<T\>. UniRx has UnityEventExtensions which convert UnityEvent to Observable, so RxVRTK doesn't support UnityEvent. Please use UniRx.UnityEventExtensions.
+
+### Example: VRTK_UnityEvents\<T\>
+**AsObservable()** is an extension method to convert UnityEvent to Observable.
+```csharp
+// Add using directive
+// using UniRx;
+
+var controlEvents = GetComponent<VRTK_Control_UnityEvents>();
+controlEvents.OnValueChanged.AsObservable()
+    .Subscribe(e =>
+    {
+        Debug.Log("Changed: "+ e.Item2.value.ToString());
+    });
+
+```
 
 ## License
 This library is released under the [MIT License](https://github.com/0V/RxVRTK/blob/master/LICENSE).
